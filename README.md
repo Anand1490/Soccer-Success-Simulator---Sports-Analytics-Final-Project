@@ -17,6 +17,6 @@ We wanted to create a way to simulate where a team would be predicted to finish 
 
 ## Skills:
 R: Tidyverse, ggplot2, plotly, dplyr, MASS library for ordinal logistic regression
-Data Cleaning  
-Exploratory Data Analysis  
+Data Cleaning   
+Exploratory Data Analysis   
 Modeling 
