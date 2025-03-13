@@ -24,4 +24,9 @@ Modeling
 ## Results 
 We created two different models using Ordinal Logistic Regression where the first model incorporated data such as Wins, Losses, Possession, Annual wages, Expected goals against, Expected goal difference, and Goals for. The second model incorporated Goals for, Goals against, Possession, Age, and Annual Wages. What we found when running our models and testing the assumptions for Ordinal Logistic Regression, is that the first model had a higher value for the higher variance inflation factor while the second model had a lower value for the higher variance inflation factor. When deciding on which model to use to make predictions, we decided on using the second model because of the lower value of the higher variance inflation factor as well as because it was a simpler model.
 
-![Alt Text](https://github.com/Anand1490/Soccer-Success-Simulator---Sports-Analytics-Final-Project/blob/main/Models.PNG)
+![Alt Text](https://github.com/Anand1490/Soccer-Success-Simulator---Sports-Analytics-Final-Project/blob/main/Models.PNG)    
+
+## Next Steps:  
+1. The data set we used had data from multiple years and to have a more comprehensive model should look for data with even more years.
+2. Further fine tune the model to create a balance of adding more variables along with a lower value for the higher variance inflation factor. 
+
