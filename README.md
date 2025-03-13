@@ -16,10 +16,10 @@ We wanted to create a way to simulate where a team would be predicted to finish 
 4. Created Visualizations showcasing the simulation of where a team may end up in their respective league.
 
 ## Skills:
-R: Tidyverse, ggplot2, plotly, dplyr, MASS library for ordinal logistic regression  
-Data Cleaning   
-Exploratory Data Analysis   
-Modeling    
+1. R: Tidyverse, ggplot2, plotly, dplyr, MASS library for ordinal logistic regression  
+2. Data Cleaning   
+3. Exploratory Data Analysis   
+4. Modeling    
 
 ## Results 
 We created two different models using Ordinal Logistic Regression where the first model incorporated data such as Wins, Losses, Possession, Annual wages, Expected goals against, Expected goal difference, and Goals for. The second model incorporated Goals for, Goals against, Possession, Age, and Annual Wages. What we found when running our models and testing the assumptions for Ordinal Logistic Regression, is that the first model had a higher value for the higher variance inflation factor while the second model had a lower value for the higher variance inflation factor. When deciding on which model to use to make predictions, we decided on using the second model because of the lower value of the higher variance inflation factor as well as because it was a simpler model.
